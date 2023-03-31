@@ -1,0 +1,94 @@
+.chatContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.chatHeader {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #555;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatMessages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    max-width: 500px;
+    overflow-y: auto;
+    padding: 20px;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatMessage {
+    max-width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.userMessage {
+    align-self: flex-end;
+    background-color: #00a2e2;
+    color: #fff;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.supportMessage {
+    align-self: flex-start;
+    background-color: #9d24b2;
+    color: #fff;
+    border: 1px solid #ccc;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatInputForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatInput {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #555;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatSendBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #9d24b2;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Mark W1G, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.chatSendBtn:hover {
+    background-color: #c81ae7;
+}
