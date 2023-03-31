@@ -1,3 +1,4 @@
+
 const fetchOpenAIResponse = async (prompt) => {
     try {
         const response = await fetch('https://api.openai.com/v1/engines/text-davinci-002/completions', {
