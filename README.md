@@ -1,4 +1,4 @@
-# edgio-help-chat
+# Assistio-chat
 
 This is a chat application built using Next.js, React, Redux, and Tailwind CSS.
 
