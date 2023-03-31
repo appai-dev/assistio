@@ -45,7 +45,7 @@ function Chat() {
     // The return statement should be inside the Chat function
     return (
         <div className={styles.chatContainer}>
-            <div className={styles.chatHeader}>Edgio AI Assist</div>
+            <div className={styles.chatHeader}>Assistio</div>
             <div className={styles.chatMessages} ref={chatContainerRef}>
                 {messages.map((message, index) => (
                     <div
